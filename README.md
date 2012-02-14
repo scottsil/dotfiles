@@ -45,7 +45,7 @@ Installation
     bundle install
     bundle exec thor dotfiles:install
 
-Note that Terminal opens a login shell. This means ~/.bash_profile will get executed, not ~/.bashrc. To fix, simply add the following line to your ~/.bash_profile:
+Note that Terminal opens a login shell. This means ~/.bash_profile will get executed, not ~/.bashrc. To fix, simply add the following line to your ~/.bash_profile file:
 	[[ -s ~/.bashrc ]] && source ~/.bashrc
 
 Inspiration
