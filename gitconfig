@@ -1,6 +1,6 @@
 [user]
   name = Scott Silverman
-  email = scottsil@me.com
+	email = scottsil@mac.com
 [color]
   branch = auto
   diff = auto
@@ -31,3 +31,6 @@
   quotepath = false
 [push]
   default = tracking
+[github]
+	user = scottsil
+	token = d7c22447d1ada45f9783ebc1304fb4f5
