@@ -71,3 +71,5 @@ else
   PS1="\u@\H \w \$(parse_git_branch)\n\$(~/.rvm/bin/rvm-prompt) > "
 fi
 unset color_prompt
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
