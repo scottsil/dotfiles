@@ -3,6 +3,8 @@ export PATH="/usr/local/bin:/usr/local/sbin:$PATH:~/bin"
 export EDITOR=`which vim`
 # Whenever displaying the prompt, write the previous line to disk.
 export PROMPT_COMMAND="history -a"
+export EC2_HOME=~/.ec2
+export PATH=$PATH:$EC2_HOME/bin
 
 # Source global definitions
 [[ -s "/etc/bashrc" ]] && source "/etc/bashrc"
