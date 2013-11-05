@@ -75,3 +75,9 @@ fi
 unset color_prompt
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+# For npm
+export NODE_PATH=/usr/local/lib/node_modules
